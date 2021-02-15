@@ -3,6 +3,8 @@ import { BrowserRouter as Router } from "react-router-dom"
 import { GlobalStyle } from "./globalStyles";
 import Hero from "./components/Hero";
 import Sidebar from "./components/Sidebar";
+import Products from "./components/Products";
+import productData from "./components/Products/data.js";
 
 function App() {
   return (
@@ -10,6 +12,7 @@ function App() {
       <GlobalStyle />
       <Hero />
       <Sidebar />
+      <Products heading="Top three guitars of the week" data={productData}/>
       </Router>
     
   );

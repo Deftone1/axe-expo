@@ -9,22 +9,22 @@ import {
   SidebarRoute,
 } from "./SidebarElements";
 
-const Sidebar = () => {
+const Sidebar = ({isOpen, toggle}) => {
   return (
-    <SidebarContainer>
-      <Icon>
-        <CloseIcon />
+    <SidebarContainer isOpen={isOpen} onClick={toggle}>
+      <Icon onClick={toggle}>
+        <CloseIcon toggle={toggle}/>
       </Icon>
       <SidebarMenu>
-        <SidebarLink to="/">Electric Guitars</SidebarLink>
-        <SidebarLink to="/">Acoustic Guitars</SidebarLink>
-        <SidebarLink to="/">Amplifiers</SidebarLink>
-        <SidebarLink to="/">Pedals</SidebarLink>
-        <SidebarLink to="/">Accessories</SidebarLink>
-        <SidebarLink to="/">Community</SidebarLink>
+        <SidebarLink to="/">ELECTRIC</SidebarLink>
+        <SidebarLink to="/">ACOUSTIC</SidebarLink>
+        <SidebarLink to="/">AMPLIFIERS</SidebarLink>
+        <SidebarLink to="/">PEDALS</SidebarLink>
+        <SidebarLink to="/">ACCESSORIES</SidebarLink>
+        <SidebarLink to="/">COMMUNITY</SidebarLink>
       </SidebarMenu>
       <SideBtnWrap>
-        <SidebarRoute to="/">Contact</SidebarRoute>
+        <SidebarRoute to="/">CONTACT</SidebarRoute>
       </SideBtnWrap>
     </SidebarContainer>
   );

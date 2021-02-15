@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { NavLink as Link } from "react-router-dom";
-import { FaGuitar } from "react-icons/fa";
+import { GiGuitarHead } from "react-icons/gi";
 
 export const Nav = styled.nav`
   background: transparent;
@@ -34,10 +34,11 @@ export const NavIcon = styled.div`
   p {
     transform: translate(-175%, 100%);
     font-weight: bold;
+    
   }
 `;
 
-export const Bars = styled(FaGuitar)`
+export const Bars = styled(GiGuitarHead)`
   font-size: 2rem;
   transform: translate(-50%, -15%);
 `;
