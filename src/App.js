@@ -12,7 +12,7 @@ function App() {
       <GlobalStyle />
       <Hero />
       <Sidebar />
-      <Products heading="Top three guitars of the week" data={productData}/>
+      <Products heading="Top Guitars of the Week" data={productData}/>
       </Router>
     
   );

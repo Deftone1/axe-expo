@@ -60,14 +60,15 @@ font-size: 2rem;
 
 export const ProductBtn = styled.button`
 font-size: 1rem;
-padding: 1rem 4rem;
+padding: 1rem 2rem;
 border: none;
 background: #e31837;
 color: #fff;
 transition: 0.2 ease-out;
+border-radius: 4px;
 
 &:hover {
-  background: #ffc500;
+  background: #fff;
   transition: 0.2s ease-out;
   cursor: pointer;
   color: #000;
