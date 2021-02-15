@@ -41,6 +41,8 @@ export const HeroH1 = styled.h1`
   padding-right: 6px;
 `;
 
+
+
 export const HeroP = styled.p`
   font-size: clamp(2rem, 2.5vw, 3rem);
   margin-bottom: 2rem;

@@ -8,6 +8,7 @@ import {
   HeroH1,
   HeroP,
   HeroBtn,
+  
 } from "./HeroElements";
 
 const Hero = () => {
@@ -24,6 +25,7 @@ const Hero = () => {
         <HeroItems>
           <HeroH1>AXE EXPO</HeroH1>
           <HeroP>GUITARS + AMPLIFIERS</HeroP>
+
           <HeroBtn>START HERE</HeroBtn>
         </HeroItems>
       </HeroContent>
