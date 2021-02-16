@@ -12,8 +12,11 @@ import {
   ProductBtn,
 } from "./ProductElements";
 
+
 const Products = ({heading, data}) => {
+  
   return (
+    
     <ProductContainer>
       <ProductHeading>{heading}</ProductHeading>
       <ProductWrapper>

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 import {
   SidebarMenu,
   SidebarLink,
@@ -9,6 +10,7 @@ import {
   SidebarRoute,
 } from "./SidebarElements";
 
+
 const Sidebar = ({isOpen, toggle}) => {
   return (
     <SidebarContainer isOpen={isOpen} onClick={toggle}>
@@ -16,7 +18,7 @@ const Sidebar = ({isOpen, toggle}) => {
         <CloseIcon toggle={toggle}/>
       </Icon>
       <SidebarMenu>
-        <SidebarLink to="/">ELECTRIC</SidebarLink>
+        <SidebarLink>ELECTRIC</SidebarLink>
         <SidebarLink to="/">ACOUSTIC</SidebarLink>
         <SidebarLink to="/">AMPLIFIERS</SidebarLink>
         <SidebarLink to="/">PEDALS</SidebarLink>

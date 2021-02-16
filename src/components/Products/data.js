@@ -33,4 +33,27 @@ export const productData = [
     }
 ]
 
-export default productData
+export const productDataTwo = [
+    {
+        img: gtr6,
+        alt: "Sparkle Blue Fender Telecaster",
+        name: "Fender Telecaster",
+        desc: "Fender Custom Shop Limited Edition Super Custom Telecaster Deluxe - Blue Sparkle.",
+        price: "$4,400.00",
+        button: "Click to view"
+        // website: "https://chucklevins.com/products/fender-custom-shop-limited-edition-super-custom-telecaster-deluxe-blue-sparkle"
+    },
+    {
+        img: gtr4,
+        alt: "Tobacco Burst Les Paul",
+        name: "Gibson Les Paul",
+        desc: "1950's Tobacco Burst Electric Guitar with pair of PAF-flavored Burstbucker 1 and 2 pickups.",
+        price: "$2,499.00",
+        button: "Click to view"
+
+        // website: "https://www.zzounds.com/item--GIBLPS500?siid=257848&gclid=Cj0KCQiA1KiBBhCcARIsAPWqoSobkHkILsu6VlRwA1F4EhTqJNWkGo08NcIHM44atpd4aR_X0v_TOigaAotvEALw_wcB"
+    },
+]
+
+export default productData;
+
