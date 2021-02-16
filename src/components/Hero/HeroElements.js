@@ -8,12 +8,14 @@ export const HeroContainer = styled.div`
   height: 100vh;
   background-position: center;
   background-size: cover;
+  width: 100vw;
+  
 `;
 
 export const HeroContent = styled.div`
   height: calc(100vh - 20px);
   max-height: 100%;
-  //   padding: 0rem calc((100vw - 1300px) / 2);
+    // padding: 0rem calc((100vw - 1300px) / 2);
 `;
 
 export const HeroItems = styled.div`
@@ -63,3 +65,5 @@ export const HeroBtn = styled.button`
     color: #000;
   }
 `;
+
+

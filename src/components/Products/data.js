@@ -11,7 +11,7 @@ export const productData = [
         name: "Fender Telecaster",
         desc: "Fender Custom Shop Limited Edition Super Custom Telecaster Deluxe - Blue Sparkle.",
         price: "$4,400.00",
-        button: "Click to view"
+        button: "Click to view",
         // website: "https://chucklevins.com/products/fender-custom-shop-limited-edition-super-custom-telecaster-deluxe-blue-sparkle"
     },
     {
@@ -40,7 +40,7 @@ export const productDataTwo = [
         img: amp1,
         alt: "Marshall JCM 800",
         name: "Marshall JCM 800",
-        desc: "Marshall JCM800 2203 Vintage Series 100W Tube Head and Marshall 1960A 300W 4x12 Guitar Extension Cabinet.",
+        desc: "Vintage Series 100W Tube Head and Marshall 1960A 300W 4x12 Guitar Extension Cabinet.",
         price: "$3,349.00",
         button: "Click to view"
         // website: "https://www.guitarcenter.com/Marshall/JCM800-2203X-Vintage-and-1960A-Half-Stack.gc"
@@ -56,6 +56,7 @@ export const productDataTwo = [
         // website: "https://reverb.com/au/p/fender-pro-reverb-amp-2-channel-50-watt-1x12-guitar-combo-2001-2005"
     },
 ];
+
 
 // export default productData;
 

@@ -5,6 +5,7 @@ export const FeatureContainer = styled.div`
   background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)),
     url(${gtr7});
   height: 70vh;
+  width: 100vw;
   background-position: center;
   background-size: cover;
   display: flex;

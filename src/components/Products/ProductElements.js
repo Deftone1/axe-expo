@@ -11,7 +11,9 @@ export const ProductContainer = styled.div`
 export const ProductHeading = styled.h1`
 font-size: clamp(2rem, 2.5vw, 3rem);
 text-align: center;
-margin-bottom: 5rem;
+margin-bottom: 3rem;
+
+
 `;
 
 export const ProductWrapper = styled.div`
@@ -26,8 +28,15 @@ export const ProductCard = styled.div`
   margin: 0 2rem;
   line-height: 2;
   width: 300px;
-  
-  
+
+  @media screen and (max-width: 768px) {
+     width: 70%;
+     text-align: center;
+     padding-bottom: 2rem;
+     
+     
+    
+  }
 `;
 
 export const ProductImg = styled.img`
@@ -35,6 +44,20 @@ height: 300px;
 width: 300px;
 max-width: 100%;
 box-shadow: 8px 8px #fdc500;
+
+&:hover {
+  transform: scale(1.1);
+  transition: all 0.3s linear;
+  box-shadow: 8px 8px #fff;
+}
+
+@media screen and (max-width: 768px) {
+  text-align: center;
+  align-items: center;
+  margin: 0 auto;
+  justify-content: center;
+}
+
 `;
 
 export const ProductInfo = styled.div`
@@ -44,6 +67,9 @@ justify-content: center;
 align-items: center;
 padding: 2rem;
 text-align: center;
+background: #171717;
+margin-top: 1rem;
+border-radius: 12px;
 `;
 
 export const ProductTitle = styled.h2`

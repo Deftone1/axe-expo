@@ -8,6 +8,7 @@ import { productData, productDataTwo } from "./components/Products/data.js";
 import Feature from "./components/Feature";
 import Footer from "./components/Footer";
 
+
 function App() {
   return (
     <Router>
@@ -16,7 +17,7 @@ function App() {
       <Sidebar />
       <Products heading="Top Guitars of the Week" data={productData} />
       <Feature />
-      <Products heading="Top Amp of the Week" data={productDataTwo} />
+      <Products heading="Top Amps of the Week" data={productDataTwo} />
       <Footer />
       </Router>
     
