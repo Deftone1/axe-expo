@@ -4,8 +4,7 @@ import { GlobalStyle } from "./globalStyles";
 import Hero from "./components/Hero";
 import Sidebar from "./components/Sidebar";
 import Products from "./components/Products";
-import productData from "./components/Products/data.js";
-import productDataTwo from "./components/Products/data.js";
+import { productData, productDataTwo } from "./components/Products/data.js";
 import Feature from "./components/Feature";
 import Footer from "./components/Footer";
 

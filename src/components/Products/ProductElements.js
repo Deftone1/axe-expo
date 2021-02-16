@@ -19,12 +19,15 @@ export const ProductWrapper = styled.div`
   flex-wrap: wrap;
   justify-content: center;
   margin: 0 auto;
+  
 `;
 
 export const ProductCard = styled.div`
   margin: 0 2rem;
   line-height: 2;
   width: 300px;
+  
+  
 `;
 
 export const ProductImg = styled.img`
@@ -60,7 +63,7 @@ font-size: 2rem;
 
 export const ProductBtn = styled.button`
 font-size: 1rem;
-padding: 1rem 2rem;
+padding: 0.7rem 2rem;
 border: none;
 background: #e31837;
 color: #fff;
