@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.js": "/axe-expo/static/js/main.c90c2678.chunk.js",
-    "main.js.map": "/axe-expo/static/js/main.c90c2678.chunk.js.map",
+    "main.js": "/axe-expo/static/js/main.a21bcf22.chunk.js",
+    "main.js.map": "/axe-expo/static/js/main.a21bcf22.chunk.js.map",
     "runtime-main.js": "/axe-expo/static/js/runtime-main.6143dddc.js",
     "runtime-main.js.map": "/axe-expo/static/js/runtime-main.6143dddc.js.map",
     "static/js/2.ed37a233.chunk.js": "/axe-expo/static/js/2.ed37a233.chunk.js",
     "static/js/2.ed37a233.chunk.js.map": "/axe-expo/static/js/2.ed37a233.chunk.js.map",
     "index.html": "/axe-expo/index.html",
     "static/js/2.ed37a233.chunk.js.LICENSE.txt": "/axe-expo/static/js/2.ed37a233.chunk.js.LICENSE.txt",
+    "static/media/amp-1.563bdd2f.jpg": "/axe-expo/static/media/amp-1.563bdd2f.jpg",
+    "static/media/amp-2.0705c749.jpg": "/axe-expo/static/media/amp-2.0705c749.jpg",
     "static/media/gtr-2.797af8eb.jpg": "/axe-expo/static/media/gtr-2.797af8eb.jpg",
     "static/media/gtr-4.915633d3.jpg": "/axe-expo/static/media/gtr-4.915633d3.jpg",
     "static/media/gtr-6.9080a1ef.jpg": "/axe-expo/static/media/gtr-6.9080a1ef.jpg",
@@ -17,6 +19,6 @@
   "entrypoints": [
     "static/js/runtime-main.6143dddc.js",
     "static/js/2.ed37a233.chunk.js",
-    "static/js/main.c90c2678.chunk.js"
+    "static/js/main.a21bcf22.chunk.js"
   ]
 }
