@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/axe-expo/static/js/main.47f022af.chunk.js",
-    "main.js.map": "/axe-expo/static/js/main.47f022af.chunk.js.map",
+    "main.js": "/axe-expo/static/js/main.a97a330f.chunk.js",
+    "main.js.map": "/axe-expo/static/js/main.a97a330f.chunk.js.map",
     "runtime-main.js": "/axe-expo/static/js/runtime-main.6143dddc.js",
     "runtime-main.js.map": "/axe-expo/static/js/runtime-main.6143dddc.js.map",
     "static/js/2.63fccd96.chunk.js": "/axe-expo/static/js/2.63fccd96.chunk.js",
@@ -20,6 +20,6 @@
   "entrypoints": [
     "static/js/runtime-main.6143dddc.js",
     "static/js/2.63fccd96.chunk.js",
-    "static/js/main.47f022af.chunk.js"
+    "static/js/main.a97a330f.chunk.js"
   ]
 }
