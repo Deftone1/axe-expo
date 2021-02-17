@@ -22,6 +22,10 @@ Home Page (Sidebar Active):
 Guitar Selection of the Week:
 <img width="1398" alt="Screen Shot 2021-02-15 at 2 33 52 PM" src="https://user-images.githubusercontent.com/66435213/107999498-56656900-6f9c-11eb-824e-5b22c5bf43f2.png">
 
+Modal Screen:
+<img width="1382" alt="Screen Shot 2021-02-16 at 9 11 11 PM" src="https://user-images.githubusercontent.com/66435213/108159400-c6a6e400-709b-11eb-83ec-59890bda4c7c.png">
+
+
 ### Author:
 
 Paul Murray
