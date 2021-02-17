@@ -1,5 +1,5 @@
-import React, {useRef, useEffect, useCallback} from "react";
-import {useSpring, animated} from "react-spring";
+import React, { useRef, useEffect, useCallback } from "react";
+import { useSpring, animated } from "react-spring";
 import styled from "styled-components";
 import { MdClose } from "react-icons/md";
 import Gtr from "./gtr-psy.jpg";
@@ -43,6 +43,9 @@ const ModalContent = styled.div`
   color: #141414;
 
   p {
+    text-align: center;
+    padding-left: 1.3rem;
+    padding-right: 1.3rem;
     margin-bottom: 1rem;
   }
 
@@ -51,8 +54,13 @@ const ModalContent = styled.div`
     background: #141414;
     color: #fff;
     border: none;
+    outline: none;
     border-radius: 4px;
     cursor: pointer;
+
+    &:hover {
+      background-color: #124c87;
+    }
   }
 `;
 
@@ -68,45 +76,48 @@ const CloseModalButton = styled(MdClose)`
 `;
 
 export const Modal = ({ showModal, setShowModal }) => {
-    const modalRef = useRef()
+  const modalRef = useRef();
 
-    const animation = useSpring({
-        config: {
-            duration: 300
-        },
-        opacity: showModal ? 1 : 0,
-        transform: showModal ? `translateY(0%)` : `translateY(-100%)`
-    })
+  const animation = useSpring({
+    config: {
+      duration: 300,
+    },
+    opacity: showModal ? 1 : 0,
+    transform: showModal ? `translateY(0%)` : `translateY(-100%)`,
+  });
 
-    const closeModal = e => {
-        if (modalRef.current === e.target) {
-            setShowModal(false)
-        }
-
+  const closeModal = (e) => {
+    if (modalRef.current === e.target) {
+      setShowModal(false);
     }
-
-
+  };
 
   return (
-  <>
-  {showModal ? (
-      <Background ref={modalRef} onClick={closeModal}>
+    <>
+      {showModal ? (
+        <Background ref={modalRef} onClick={closeModal}>
           <animated.div style={animation}>
-          <ModalWrapper showModal={showModal}>
+            <ModalWrapper showModal={showModal}>
               <ModalImg src={Gtr} alt="Psyche Guitar" />
               <ModalContent>
-                  <h1>Everyone loves guitars!</h1>
-                  <p>Get some guitars here!</p>
-                  <button>Click Here</button>
+                <h1>Everyone loves guitars!</h1>
+                <p>
+                  This page provides interesting facts and information about
+                  guitars and guitar-related accessories, from conceptual
+                  design, manufacturing - to playing! Please feel free to add
+                  some feedback or suggestions for content on the site. Now get
+                  exploring!
+                </p>
+                <button>CONTACT ME</button>
               </ModalContent>
-              <CloseModalButton aria-label="Close Modal" onClick={() => setShowModal
-            (prev => ! prev)} />
-          </ModalWrapper>
+              <CloseModalButton
+                aria-label="Close Modal"
+                onClick={() => setShowModal((prev) => !prev)}
+              />
+            </ModalWrapper>
           </animated.div>
-      </Background>
-
-
-  ) : null}
-  </>
-  )
+        </Background>
+      ) : null}
+    </>
+  );
 };

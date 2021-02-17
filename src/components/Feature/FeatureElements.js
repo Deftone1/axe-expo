@@ -33,6 +33,7 @@ font-size: 1.2rem;
 letter-spacing: 4px;;
 padding: 0.6rem 2rem;
 border: none;
+outline: none;
 background: #fff;
 color: #000;
 transition: 0.3s ease-out;
